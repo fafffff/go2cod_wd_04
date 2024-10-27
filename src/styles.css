@@ -1,0 +1,80 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+div .container {
+  margin-top: 50px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+img {
+  height: auto;
+  max-height: 300px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+header {
+  padding: 20px;
+  background-color: #020638;
+  color: white;
+  width: 100%;
+  max-width: 2000px;
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 10px;
+  background-color: #020638;
+  color: white;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+header h1 {
+  color: goldenrod;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Lightbox styles */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures the lightbox is above other elements */
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.lightbox-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: add a bit of style */
+}
