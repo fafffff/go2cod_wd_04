@@ -83,7 +83,7 @@ const ImageGallery = () => {
         <h1>Family Image Gallery</h1>
         <p>Explore beautiful family moments captured in time</p>
       </header>
-      <div className="mt-5">
+      <div className="mt-5 pt-5">
         <div className="container my-5 mt-5 mb-5">
           <div className="row">
             {images.map((image) => (
