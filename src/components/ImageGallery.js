@@ -3,12 +3,14 @@ import Lightbox from "./Lightbox";
 import "./styles.css";
 
 const images = [
-  { id: 1, src: "Image/Image1.jpg", alt: "Image 1" },
-  { id: 2, src: "Image/Image3.jpg", alt: "Image 2" },
-  { id: 3, src: "Image/Image4.jpg", alt: "Image 3" },
-  { id: 4, src: "Image/Image5.jpg", alt: "Image 4" },
-  { id: 5, src: "Image/Image7.jpg", alt: "Image 5" },
-  { id: 6, src: "Image/Image8.jpg", alt: "Image 6" },
+  { id: 1, src: "/Image/Image1.jpg", alt: "Image 1" },
+  { id: 2, src: "/Image/Image3.jpg", alt: "Image 2" },
+  { id: 3, src: "/Image/Image4.jpg", alt: "Image 3" },
+  { id: 4, src: "/Image/Image5.jpg", alt: "Image 4" },
+  { id: 5, src: "/Image/Image7.jpg", alt: "Image 5" },
+  { id: 6, src: "/Image/Image8.jpg", alt: "Image 6" },
+  { id: 7, src: "/Image/Image2.jpg", alt: "Image 7" },
+  { id: 8, src: "/Image/Image6.jpg", alt: "Image 8" },
 ];
 
 const ImageGallery = () => {
